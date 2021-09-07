@@ -83,6 +83,21 @@
     <div class="mb-3"><input type="text" class="form-control" name="name" placeholder="اسمك" /></div>
     <div class="mb-3"><input type="email" class="form-control is-invalid" name="email" placeholder="ايميلك" /><small class="form-text text-danger">Please enter a correct email address.</small></div>
     <div class="mb-3"><textarea class="form-control" name="message" placeholder="Message" rows="14"></textarea></div>
+            <form
+  action="https://formspree.io/f/xnqllwqd"
+  method="POST"
+  enctype="multipart/form-data"
+>
+  <label>
+    Your email:
+    <input type="email" name="_replyto">
+  </label>
+  <label>
+    Your file:
+    <input type="file" name="upload">
+  </label>
+  <button type="submit">Send</button>
+</form>
     <div class="mb-3"><button class="btn btn-primary" type="submit">ارسال </button></div>
     <input type="hidden" name"_next" value=pages/tk.html">
 </form></section>
